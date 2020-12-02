@@ -13,7 +13,7 @@ let [count, setCount] = useState(0)
         ()=> setCount(count + 1)}>
           Click to React
       </button>
-      <p class='auth'>Created by : AFFAN ALI</p>
+      <p class='auth'>Created by: AFFAN ALI</p>
     </div>
   );
 }
