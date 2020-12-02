@@ -1,8 +1,5 @@
 import React from 'react';
 
-
-
-
 function Heading() {
     return(
     <div class='heading'>
@@ -10,6 +7,8 @@ function Heading() {
     </div>
     );
 }
+
+
 
 
 export default Heading;
