@@ -10,13 +10,12 @@ body {
     text-align: center;
     margin: auto;
     margin-top: 100px;
-    padding: 10px;
+    padding-top: 50px;
     border-radius: 15px;
 }
 
 .heading {
     text-align: center;
-
 }
 
 
@@ -42,7 +41,7 @@ h3 {
 }
 
 h1{
-    color: indigo;
+    color: rgb(144, 32, 224);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
