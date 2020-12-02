@@ -10,7 +10,7 @@ body {
     text-align: center;
     margin: auto;
     margin-top: 100px;
-    padding-top: 50px;
+    padding: 10px;
     border-radius: 15px;
 }
 
@@ -41,7 +41,7 @@ h3 {
 }
 
 h1{
-    color: rgb(144, 32, 224);
+    color: rgb(116, 21, 184);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
