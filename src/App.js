@@ -9,11 +9,11 @@ let [count, setCount] = useState(0)
     
     <div class='c_body'>
       <h3>Here is the counter: {count}</h3>
-
       <button onClick={
         ()=> setCount(count + 1)}>
           Click to React
       </button>
+      <p class='auth'>Created by : AFFAN ALI</p>
     </div>
   );
 }

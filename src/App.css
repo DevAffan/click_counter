@@ -31,7 +31,7 @@ button{
 
 button:hover {
     background-color: aquamarine;
-    color: black;
+    color: rgb(78, 126, 231);
     
 }
 
@@ -44,4 +44,11 @@ h3 {
 h1{
     color: indigo;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.auth {
+    text-align: right;
+    font-size: x-small;
+    margin-top: 200px;
+    color: rgb(13, 139, 133);
 }
