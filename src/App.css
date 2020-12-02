@@ -3,11 +3,13 @@ body {
 }
 
 div {
-    width: 400px;
-    height: 200px;
+    background-color: rgb(190, 183, 183);
+    width: 300px;
+    height: 300px;
     border: 1px solid black;
     text-align: center;
     margin: auto;
+    border-radius: 15px;
 }
 
 
