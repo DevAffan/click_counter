@@ -2,8 +2,8 @@ body {
     background-color: lightgrey;
 }
 
-.c_body {
-    background-color: rgb(190, 183, 183);
+.c_day {
+    background-color: rgb(163, 171, 179);
     width: 300px;
     height: 300px;
     border: 1px solid black;
@@ -11,7 +11,11 @@ body {
     margin: auto;
     margin-top: 100px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 30px;
+}
+
+.day {
+    background-color: yellow;
 }
 
 .heading {
@@ -20,9 +24,10 @@ body {
 
 
 button{
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(123, 213, 243);
     height: 30px;
+    width: 100px;
     color: white;
     border: 2px solid rgb(138, 137, 209) ;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -45,9 +50,14 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h2{
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .auth {
     text-align: right;
     font-size: x-small;
-    margin-top: 200px;
+    margin-top: 30px;
     color: rgb(13, 139, 133);
 }
