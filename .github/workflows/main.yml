@@ -41,8 +41,4 @@ jobs:
         run: npm install -g surge
      
       - name: Deploy to foo-bar.surge.sh
-        uses: dswistowski/surge-sh-action@v1
-        with:
-          domain: 'React_counter.surge.sh'
-          project: './build'
-          token: ${{ secrets.SURGE_SECRET }}
+        run: surge ./build http://react_counter.surge.sh/ --token ${{secrets.SURGE_SECRET}}
