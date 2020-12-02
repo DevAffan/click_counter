@@ -35,10 +35,14 @@ jobs:
          cmd: install
      
       - name: building react app
-        run: npm run build
+        run: yarn run build
          
       - name: installing surge
         run: npm install -g surge
      
-      - name: Deploying on surge
-        run: surge ./build http://React_counter.surge.sh/ --token ${{secrets.SURGE_SECRET}}
+      - name: Deploy to foo-bar.surge.sh
+        uses: dswistowski/surge-sh-action@v1
+        with:
+          domain: 'React_counter.surge.sh'
+          project: './build'
+          token: ${{ secrets.SURGE_SECRET }}
