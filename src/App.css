@@ -1,16 +1,30 @@
+body {
+    background-color: lightgrey;
+}
+
+div {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+
+
 button{
     border-radius: 10px;
     background-color: rgb(123, 213, 243);
     height: 30px;
     color: white;
     border: 2px solid rgb(138, 137, 209) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-
 
 button:hover {
     background-color: aquamarine;
     color: black;
+    
 }
 
 
